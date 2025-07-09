@@ -1,0 +1,90 @@
+.panel {
+	width: 100%;
+	height: auto;
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+	margin: 50px 0;
+  font-family: 'Inria Serif', serif;
+	font-weight: bold;
+}
+
+.panel__content {
+	max-width: 1200px;
+  margin: 0 auto;
+}
+
+.panel__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.panel__subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.panel__features {
+  padding: 0;
+  margin: 0 0 40px 20px;
+  text-align: left;
+}
+
+.panel__feature {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.panel__highlight {
+  color: var(--color-yellow);
+  font-weight: 600;
+}
+
+.panel__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.panel__icon {
+  display: flex;
+  width: 120px;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.panel__icon-2 {
+  width: 250px;
+}
+
+.panel__icon:hover {
+  transform: translateY(-5px);
+}
+
+.panel__icon-img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.panel__icon-active {
+	fill: var(--color-yellow);
+}
+
+.panel__icon-text {
+	width: 100%;
+	text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.panel__img {
+  width: 100%;
+}
